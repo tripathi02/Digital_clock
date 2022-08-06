@@ -14,16 +14,17 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url('./images/clouds.jpg');
+    background-image: url('./images/dark.jpg');
 }
 
 .box{
     text-align:center;
 }
 
+
 .hours, .minutes, .seconds, .amorpm{
     width: 5em;
-    height: 3em;
+    height: 1em;
     background-color: beige;
     padding: 1em;
     margin: 3em;
@@ -36,7 +37,7 @@ body{
     -moz-border-radius: 8px;
     -ms-border-radius: 8px;
     -o-border-radius: 8px;
-    box-shadow: 3px 3px 9px brown, -3px -3px 9px white;
+    box-shadow: 3px 3px 9px skyblue, -3px -3px 9px white;
 }
 
 #hours, #minutes, #seconds, #amorpm{
@@ -45,6 +46,6 @@ body{
 }
 
 .box > h1{
-    font-size: 1.5em;
-    color:black;
+    font-size: 1em;
+    color:cornsilk;
 }
